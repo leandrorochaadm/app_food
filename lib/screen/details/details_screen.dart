@@ -48,6 +48,22 @@ class ItemInfo extends StatelessWidget {
             topLeft: Radius.circular(30),
             topRight: Radius.circular(30),
           )),
+      child: Column(children: [
+        shopeName(name: "MacDonald's"),
+      ]),
+    );
+  }
+
+  Row shopeName({required String name}) {
+    return Row(
+      children: [
+        const Icon(
+          Icons.location_on,
+          color: kSecondaryColor,
+        ),
+        const SizedBox(width: 10),
+        Text(name),
+      ],
     );
   }
 }
