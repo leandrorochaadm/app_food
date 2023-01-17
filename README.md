@@ -1,14 +1,12 @@
-# Food Ordering App - Flutter UI
+# App Entrega de comida - Flutter UI
 
-## [Watch it on YouTube](https://youtu.be/F0ujC60wHwc)
+Criei duas telas, uma é a página inicial e outra é a página de detalhes para um aplicativo de entrega de comida.
 
 **Packages we are using:**
 
 - flutter_svg: [link](https://pub.dev/packages/flutter_svg)
-- smooth_star_rating: [link](https://pub.dev/packages/smooth_star_rating)
+- smooth_star_rating: [link](https://pub.dev/packages/smooth_star_rating_null_safety)
 
-We design two pages one is the home page and another one is details page that will help you to design clear interfaces for food delivery app faster and easier.
-
-### Food App Final UI
+### Demonstração visual da tela do app
 
 ![App UI](/ui.png)
