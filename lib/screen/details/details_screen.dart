@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../constants.dart';
 import 'components/components.dart';
@@ -39,6 +40,8 @@ class ItemInfo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size size = MediaQuery.of(context).size;
+
     return Container(
       padding: const EdgeInsets.all(20),
       width: double.infinity,
@@ -58,6 +61,14 @@ class ItemInfo extends StatelessWidget {
             price: 15,
             onRatingChanged: (double rating) {},
           ),
+          Text(
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper pulvinar tempus. Cras id urna. '
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper pulvinar tempus. Cras id urna. '
+            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus semper pulvinar tempus. Cras id urna.',
+            style: TextStyle(height: 1.5),
+          ),
+          SizedBox(height: size.height * 0.1),
+          OrderButton(press: () {})
         ],
       ),
     );
@@ -76,3 +87,4 @@ class ItemInfo extends StatelessWidget {
     );
   }
 }
+
