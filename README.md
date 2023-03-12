@@ -10,3 +10,5 @@ Criei duas telas, uma é a página inicial e outra é a página de detalhes para
 ### Demonstração visual da tela do app
 
 ![App UI](/ui.png)
+![App UI00](/prints/00.png)
+![App UI01](/prints/01.png)
